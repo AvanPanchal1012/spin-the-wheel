@@ -1,0 +1,10 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "spins",
+      "queryScope": "COLLECTION",
+      "fields": [{ "fieldPath": "createdAt", "order": "DESCENDING" }]
+    }
+  ],
+  "fieldOverrides": []
+}
