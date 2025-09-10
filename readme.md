@@ -92,7 +92,7 @@ Runs on:
 
 ```sh
 cd firebase
-npx ts-node scripts/seed.ts
+npx ts-node scripts/src/seed.ts
 ```
 
 This creates `wheelConfig/default` with 8 segments.

@@ -2,7 +2,7 @@ import * as admin from "firebase-admin";
 import { onCall, HttpsError } from "firebase-functions/v2/https";
 import { pickWeightedIndex } from "./utils";
 import { SpinResult, WheelConfig } from "./types";
-import { Timestamp } from "firebase-admin/firestore"; // ✅ use this instead
+import { Timestamp } from "firebase-admin/firestore";
 
 admin.initializeApp();
 const db = admin.firestore();
